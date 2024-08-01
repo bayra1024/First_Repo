@@ -1,0 +1,112 @@
+body{
+    background: #c7b39b
+    url(https://img.freepik.com/free-photo/flowers-over-white-background_24972-6.jpg?w=740&t=st=1674856776~exp=1674857376~hmac=2d1f834c0472307bee974000dc3c5da5d528aa675775bb901012bf7ece448baa); 
+    background-size: 100%;
+     }
+     h1, h2, h3 {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+     }
+        h1 {
+        color: #d18f59;
+        font-size: 42px;
+        line-height: 48px;
+        margin: 0;
+        padding: 30px;
+        }
+        
+        h2 {
+          color: #434926;
+          font-size: 34px;
+          line-height: 48px;
+          margin: 0;
+          font-weight: 400;
+          padding: 30px;
+        
+        }
+        h3 {
+          color: #527b69;
+        }
+
+        img {
+          width: 400px;
+          height: auto;
+        }
+
+        ul {
+          
+          padding: 0;
+                }
+ 
+         li {
+          list-style: none;
+          text-align: center;
+          text-align: center;
+          padding: 10px 0;
+          border-radius: 10px;
+          transition: all 200ms ease-in-out;
+          max-width: 400px;
+          margin: 0 auto;
+          }
+          
+         
+          li:hover {
+            background: #fffbef;
+          }
+           p {
+            font-size: 18px;
+            text-align:center;
+            margin: auto;
+            font-family: monospace;
+            max-width: 400px;
+            padding: 20px;
+           }
+         
+           .toKnowMore {
+          color: #d18f59;
+          font-size: 18px;
+          font-style: normal;
+          text-decoration: none;
+          cursor: pointer;
+           }
+           .toKnowMore:hover {
+            text-decoration: underline;
+          cursor: pointer;
+           }
+
+        button {
+          display: block;
+          margin: 20px auto;
+          border: 1px solid #527b69;
+          background: #527b69;
+          color: #fffbef;
+          font-size: 16px;
+          line-height: 22px;
+          padding: 16px 24px;
+          text-decoration: none;
+          transition: all 200ms ease-in-out;
+          border-radius: 10px;
+          box-shadow: 5px 6px 12px black;
+          cursor: pointer;
+          }
+
+        button :hover {
+          color: #527b69;
+          cursor: pointer;
+          margin: 20px auto;
+          line-height: 22px;
+          padding: 16px 24px;
+          transition: all 200ms ease-in-out;
+          border-radius: 10px;
+          background: linear-gradient(#fffbef, rgb(230, 217, 219));
+        }
+
+        div {
+          text-align: center;
+          font-weight: bolder;
+        }
+        span {
+          color:#434926;
+          font-style: italic;
+        }

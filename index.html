@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Flowers</h1>
+    <hr />
+    <h2><strong>Love for life</strong></h2>
+    <hr />
+    <p>
+      Why do we give flowers as gifts? <br />
+      To Communicate Emotions <br />
+      The biggest reason we give flowers as gifts is to connect with an emotion.
+      Whether its love, joy, affection, appreciation, sympathy, romance or
+      apologies; flower giving communicates the deepest feelings in the most
+      elegant manner. Not only women like to receive flowers, but also men.
+    </p>
+    <p>
+      <img src="images/3.jfif" />
+    </p>
+    <ul>
+      <li class="roses">
+        <h3>Roses</h3>
+        <p>
+          The traditional symbol of love, romance, passion, and desire, red rose
+          flowers will always be the best way to say “I Love You” to that
+          special someone in your life. The gorgeous red roses also reflect the
+          beauty and perfection that are used for the bridal bouquet
+        </p>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <h3>Lilies</h3>
+        <p>
+          Lilies most commonly mean devotion or purity, though meaning can vary
+          by type of lily, culture, and color. Because of the Greek myth of Hera
+          and Zeus, lilies are associated with rebirth and motherhood. In China,
+          lilies are used in weddings because they are tied to 100 years of
+          love. They are also tied to good luck./p&gt;
+        </p>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <h3>Gerberas</h3>
+        <p>
+          The Egyptians believed that they symbolised a closeness to nature and
+          a devotion to the sun, whereas the Celts thought they lessened the
+          sorrows and stresses of everyday life. Generally, gerberas symbolise
+          innocence, purity, cheerfulness and loyal love.
+        </p>
+      </li>
+
+      <ul>
+        <li>
+          <h3>Daisies</h3>
+          <p>
+            In Norse mythology, the daisy is known as the sacred flower for the
+            goddess of love, beauty and fertility. Because of this, daisies
+            symbolise childbirth, motherhood and new beginnings. So they're a
+            great flower to give to welcome a new baby!
+          </p>
+        </li>
+
+        <ul>
+          <li>
+            <h3>Hydrangeas</h3>
+            <p>
+              According to a Japanese legend, the hydrangea became associated
+              with heartfelt emotion, gratitude for understanding, and apology
+              after a Japanese emperor gave them to the family of the girl he
+              loved to make up for neglecting her in favor of business and show
+              how much he cared about her.
+            </p>
+          </li>
+
+          <ul>
+            <li>
+              <h3>Gladioluses</h3>
+              <p>
+                Gladiolus Flower Symbolism Generally, gladioli represent
+                strength of character, faithfulness, moral integrity, and
+                remembrance.
+                <em
+                  >Gladioli are actually the traditional 40th-anniversary flower
+                  and the birth flower for the month of August!</em
+                >
+              </p>
+            </li>
+
+            <li class-toknowmore="">
+              <a
+                class="toKnowMore"
+                href="https://en.wikipedia.org/wiki/Flower"
+                target="_blank"
+              >
+                To Know More
+              </a>
+            </li>
+          </ul>
+
+          <button>Buy flowers</button>
+
+          <div>Coded by <span>Galyna Tsvigun</span></div>
+
+          <script>
+            function buyFlowers() {
+              let name = prompt("What is your name?");
+              alert(name);
+              let last_name = prompt("What is your last name?");
+              alert(name + last_name);
+              let email = prompt("Please, write your email adress");
+              let old = prompt("How old are you?");
+              if (old > 18) {
+                let heading = document.querySelector("h1");
+                heading.innerHTML = "Sorry, " + last_name + "you need growing";
+              } else {
+                let heading = document.querySelector("h1");
+                heading.innerHTML =
+                  "Hi, dear " +
+                  last_name +
+                  "! Which flowers would like to buy?" +
+                  city;
+              }
+            }
+            let changeButton = document.querySelector("button");
+            changeButton.addEventListener("click", buyFlowers);
+          </script>
+        </ul>
+      </ul>
+    </ul>
+  </body>
+</html>
